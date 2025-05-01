@@ -26,6 +26,7 @@ body {
 
     .item1 {
       grid-column: 1 / 5;
+		
     }
 
     .item2 {
