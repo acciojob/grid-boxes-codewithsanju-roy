@@ -2,8 +2,8 @@
 #grid{
 	display:grid;
 	grid-gap:5px;
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-columns: repeat(5,100px);
+	grid-template-rows: 124px 124px 124px 124px 124px;
+	grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
 	font-size:4vw;
 	color:white;
 }
@@ -29,13 +29,13 @@
 	background-color: rgb(0, 128, 0);
 }
 
-#grid div:nth-child(7){
-	grid-column: span 2 / auto;
+#grid div:nth-child(10){
+	grid-row: span 3 / auto;
 	background-color: rgb(0, 128, 0);
 }
 
 
 #grid > div:nth-child(10){
-	grid-column: span 4 / auto;
+	grid-column: span 3 / auto;
 	background-color: rgb(0, 128, 0);
 }
