@@ -1,9 +1,9 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	grid-gap:10px;
-	grid-template-rows:124px 124px 124px 124px 124px 0px 0px;
-	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
+	grid-gap:10px 20px;
+	grid-template-rows: 125px 125px 125px 125px 125px;
+	grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
 	font-size:4vw;
 	color:white;
 }
