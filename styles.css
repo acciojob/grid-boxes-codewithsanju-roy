@@ -9,33 +9,33 @@
 }
 #grid div{ 
 	display:flex;
-	justify-content:space-between;
+	justify-content:center;
+	align-items:center;
 	background-color:rgb(0, 128, 0);
 
 }
 
 #grid div:nth-child(1){
-	grid-column: span 4 / auto;
+	grid-column: span 4 ;
 	background-color: rgb(0, 128, 0);
 }
 #grid div:nth-child(2){
-	grid-row: span 4 / auto;
+	grid-row: span 4 ;
 	background-color: rgb(0, 128, 0);
 }
 
-#grid > div:nth-child(4),
-#grid > div:nth-child(5){
-	grid-column: span 2 / auto;
+#grid > div:nth-child(3){
+	grid-column: span 2 ;
 	background-color: rgb(0, 128, 0);
 }
-
+#grid > div:nth-child(4){
+	grid-column: span 2 ;
+	background-color: rgb(0, 128, 0);
+}
 #grid div:nth-child(10){
-	grid-row: span 3 / auto;
+	grid-row: span 3 ;
+	grid-column:span 3;
 	background-color: rgb(0, 128, 0);
 }
 
 
-#grid > div:nth-child(10){
-	grid-column: span 3 / auto;
-	background-color: rgb(0, 128, 0);
-}
